@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big System - Venda, Manutenção e Instalação de Som
+    Profissional, Iluminação, Painel de LED, Automação, Home e Som Ambiente.</title>
+  <link href="./imgs/favicon.png" rel="Shortcut icon">
+  <link href="./output.css" rel="stylesheet">
+  <link href="./custom.css" rel="stylesheet">
+
+</head>
+<style>
+  .swiper-container {
+    overflow: hidden;
+  }
+</style>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="preload" href="./assets/fontawesome/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+  <link rel="stylesheet" href="./assets/fontawesome/css/all.css">
+</noscript>
+
+<body class="text-black ">
+  <header id="navbar" class="mb-2 px-4 fixed z-20   text-white w-screen ">
+    <div
+      class="relative mx-auto flex max-w-screen-lg flex-col py-4 sm:flex-row sm:items-center  justify-center sm:justify-between">
+      <a class="flex items-center text-2xl font-black" href="/">
+
+        <img src="./imgs/logo.png" class="w-48 reveal_spin">
+      </a>
+      <input class="peer hidden" type="checkbox" id="navbar-open" />
+      <label class="absolute right-0 mt-1 cursor-pointer text-xl sm:hidden" for="navbar-open">
+        <span class="sr-only">Toggle Navigation</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 448 512">
+          <path fill="currentColor"
+            d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zm448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32z" />
+        </svg>
+      </label>
+      <nav aria-label="Header Navigation" class="peer-checked:block hidden pl-2 py-6 sm:block sm:py-0">
+        <ul class="flex flex-col font-semibold gap-y-4 sm:flex-row sm:gap-x-8">
+          <li class=""><a class=" " href="#">Ínicio</a></li>
+          <li class=""><a class=" " href="#">Sobre nós</a></li>
+          <li class=""><a class=" " href="#">Qualificações</a></li>
+          <li class=""><a class=" " href="./assistencia/">Assistência Técnica</a></li>
+          <li class=""><a class=" " href="#">Contato</a></li>
+
+          <li class="mt-2 sm:mt-0"><a
+              class="rounded-xl border-2 border-orange-800 px-6 py-2 font-medium text-white bg-orange-600 hover:text-white"
+              href="#"> <i class="fa-brands fa-whatsapp mr-2 "></i>Faça um orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section class="relative z-0 bg-black">
+    <!-- Background Video -->
+    <video autoplay loop muted playsinline class="absolute inset-0 object-cover w-full h-full z-[-1]">
+      <source src="./imgs/banner.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- Overlay to darken the video -->
+    <div class="absolute inset-0 bg-neutral-900 opacity-70 z-[-1]"></div>
+
+    <div
+      class=" min-h-screen mx-auto flex justify-center items-center sm:items-start  flex-col max-w-7xl relative sm:text-left text-center">
+      <h1 class="   text-center   mx-auto  reveal_bottom  font-semibold text-4xl text-white  md:text-6xl leading-none">
+        Criamos experiências com <br><b>som e iluminação</b> de alto nível.
+        </span>
+      </h1>
+      <!-- <p
+                class="max-w-sm sm:max-w-xl font-text sm:text-left text-center text-base leading-1 sm:text-lg reveal_bottom font-normal  text-gray-200 mb-9">
+                Em 2019 foi iniciada a empresa com a missão de colocar em prática todas as ideias sobre customização de carros, trazendo sempre aos projetos muita criatividade e inovação.
+            </p> -->
+    </div>
+  </section>
+  <style>
+    ::-webkit-scrollbar {
+      width: 0px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  </style>
+
+
+
+  <div class="overflow-hidden bg-white py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div class="lg:pt-4 lg:pr-8">
+          <div class="lg:max-w-lg">
+            <h2 class="text-base/7 font-semibold text-orange-600">Sobre nós</h2>
+            <p class="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl">Um pouco de
+              <b>nossa Empresa...</b>
+            </p>
+            <p class="mt-5 text-lg/8 text-gray-700">Somos uma empresa que trabalha no ramo de Venda, Manutenção e
+              Instalação de Som
+              Profissional, Iluminação, Painel de LED, Automação, Home e Som Ambiente.
+              Em toda nossa área de atuação fazemos desde a execução de um projeto, feito por terceiros, ou elaboramos o
+              nosso próprio.</p>
+            <dl class="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <a class="absolute top-1 left-1 size-5 text-orange-600" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <i class="fa-solid fa-briefcase"></i>
+                  </a>
+                  Nossa Missão
+                </dt>
+                <dd class="inline">Entregar soluções de qualidade na comercialização de prestação de nossos serviços.
+                  Proporcionar realização, satisfação no relacionamento com nossos clientes e colaboradores.</dd>
+              </div>
+              <div class="relative pl-9">
+                <dt class="inline font-semibold text-gray-900">
+                  <a class="absolute top-1 left-1 size-5 text-orange-600" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true" data-slot="icon">
+                    <i class="fa-solid fa-eye"></i>
+                  </a>
+                  Nossa Visão
+                </dt>
+                <dd class="inline">Nossa VISÃO é que se trabalharmos duro, sermos competentes, nos esforçarmos
+                  diariamente e honestamente para atender às mais diversas necessidades de nossos Clientes, todos os
+                  Fornecedores, Parceiros e Funcionários.</dd>
+              </div>
+
+            </dl>
+          </div>
+        </div>
+        <img src="https://cdn.pixabay.com/animation/2023/10/10/13/26/13-26-45-476_512.gif" alt="Product screenshot"
+          style="filter: hue-rotate(-260deg);"
+          class="w-[48rem] max-w-none rounded-xl saturate-200 sm:w-[57rem] md:-ml-4 lg:-ml-0" width="2432"
+          height="1442">
+      </div>
+    </div>
+  </div>
+
+  <div class=" py-8">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <h2 class="text-center text-4xl   font-semibold text-gray-800">Conheça nossas <b>empresas parceiras.</b>
+      </h2>
+
+      <!-- Swiper Container -->
+      <div class="swiper-container mt-10">
+        <div class="swiper-wrapper flex items-center justify-center">
+          <div class="swiper-slide flex justify-center select-none">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_01.png" alt="Nike">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_02.png" alt="Adidas">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_03.png" alt="Puma">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_04.png" alt="Under Armour">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_05.png" alt="New Balance">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_06.png" alt="Asics">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain "
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_07.png" alt="Converse">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_08.png" alt="Vans">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_09.png" alt="Reebok">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_10.png" alt="Louis Vuitton">
+          </div>
+          <!-- <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Balenciaga_Logo.svg/1200px-Balenciaga_Logo.svg.png" alt="Balenciaga">
+          </div> -->
+
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_11.png" alt="Prada">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_12.png" alt="Fendi">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_13.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_14.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_15.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_16.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_17.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_18.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_19.png" alt="Dior">
+          </div>
+          <div class="swiper-slide flex justify-center">
+            <img class="max-h-24 w-auto object-contain"
+              src="https://www.cache2net.com//Repositorio/5530/Slides/Sem-T%C3%ADtulo-1_20.png" alt="Dior">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      spaceBetween: 40,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      breakpoints: {
+        640: { slidesPerView: 2 },
+        768: { slidesPerView: 3 },
+        1024: { slidesPerView: 5 }, // Ajusta melhor para telas grandes
+      }
+    });
+  </script>
+  <aside class="relative  min-h- overflow-hidden">
+    <video class="absolute inset-0 object-cover w-full h-full" autoplay playsinline muted loop>
+      <source src="./imgs/banner3.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <section class="relative bg-neutral-900/80 text-white flex justify-center  flex-col items-center">
+      <img class="z-10 " src="./imgs/sharp-paper-top.svg">
+      <section class="text-white-600 min-h-screen flex justify-center items-center body-font">
+        <div class="container px-8 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="sm:text-4xl  text-4xl font-bold title-font mb-2 text-white scale_up">
+              Nossas principais <span class="text-orange-500">áreas de atuação</span>.
+            </h1>
+            <p class="leading-relaxed  text-xl max-w-3xl mx-auto text-whitescale_up">
+              Soluções especializadas em automação, sonorização e painéis de LED para diversos setores, garantindo
+              tecnologia, eficiência e segurança em cada projeto.
+            </p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <!-- Project 1 -->
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/30594a2a-8.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Clube de Regatas do
+                          Flamengo</h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Aeroportos</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Gestão completa de processos industriais em
+                    metalurgia e siderurgia, desde a produção e laminação de aço até a logística e manutenção de pátios
+                    e expedição.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/633aedb1-3.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Olimpíadas Rio 2016
+                      </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Arenas</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Desenvolvimento, montagem e manutenção de
+                    plantas industriais para extração e beneficiamento de minérios, além de gestão eficiente de
+                    rejeitos.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/be64194d-2.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Multiplan
+                      </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Corporativo
+                  </h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Especialistas em manutenção e ampliação de
+                    sistemas de tubulação, válvulas e outros equipamentos críticos para a produção de papel e celulose.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/0d6db5d4-9.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Opportunity
+                      </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Educação</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Soluções integradas para operação e manutenção
+                    de plataformas, embarcações e refinarias, incluindo montagem e preservação de dutos e sistemas
+                    industriais.</p>
+                </div>
+              </div>
+            </div>
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/157b5d6d-a.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Opportunity
+                      </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Hotéis e Hospitais</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Gerenciamento de estoques e operações
+                    industriais em terminais portuários, com expertise em fabricação, montagem, desmontagem e manutenção
+                    de estruturas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/cfa7f6e9-3.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Opportunity
+                    </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Museografia</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Gerenciamento de estoques e operações
+                    industriais em terminais portuários, com expertise em fabricação, montagem, desmontagem e manutenção
+                    de estruturas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/ed27c055-e.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Opportunity
+                  </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Shopping Centers</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Gerenciamento de estoques e operações
+                    industriais em terminais portuários, com expertise em fabricação, montagem, desmontagem e manutenção
+                    de estruturas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/dfa464b5-9.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Opportunity
+                </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Templos</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Gerenciamento de estoques e operações
+                    industriais em terminais portuários, com expertise em fabricação, montagem, desmontagem e manutenção
+                    de estruturas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="xl:w-1/5 md:w-1/2 reveal_bottom p-4">
+              <div class="bg-white text-neutral-900  p-2 rounded-lg p-2">
+                <img class="h-40 rounded w-full object-cover object-center mb-6"
+                  src="https://www.cache2net3.com//Repositorio/5530/Conteudos/26737/953a9a74-6.jpg">
+                <div class="p-4">
+                  <!-- <h3 class="tracking-widest text-orange-500 text-xs font-medium title-font">Grupo Opportunity
+              </h3> -->
+                  <h2 class="text-lg font-medium title-font mb-2">Trens e Metrôs</h2>
+                  <p class="leading-relaxed text-base text-neutral-800">Gerenciamento de estoques e operações
+                    industriais em terminais portuários, com expertise em fabricação, montagem, desmontagem e manutenção
+                    de estruturas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img class="z-10 " src="./imgs/sharp-paper-bottom.svg">
+    </section>
+  </aside>
+
+<section class="bg-white py-24 px-6">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-6">
+      Nossas <span class="text-orange-500">Qualificações</span>
+    </h2>
+    <p class="text-gray-600 text-lg sm:text-xl max-w-2xl mx-auto mb-16">
+      Seguimos os mais altos padrões de qualidade e segurança para garantir excelência em todos os nossos projetos.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      <!-- CARD -->
+      <div class="group border border-gray-200 rounded-2xl p-6 hover:shadow-xl transition bg-white">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gray-50 flex items-center justify-center">
+          <img src="./imgs/normas/abnt.png" alt="ABNT" class="h-12 object-contain">
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-orange-500 transition">
+          ABNT NBR IEC 60268-16
+        </h3>
+        <p class="text-sm text-gray-600 mt-2">
+          Inteligibilidade de sistemas de comunicação.
+        </p>
+      </div>
+
+      <div class="group border border-gray-200 rounded-2xl p-6 hover:shadow-xl transition bg-white">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gray-50 flex items-center justify-center">
+          <img src="./imgs/normas/nr10.png" alt="NR10" class="h-12 object-contain">
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-orange-500 transition">
+          NR10
+        </h3>
+        <p class="text-sm text-gray-600 mt-2">
+          Norma regulatória para instalações e serviços elétricos.
+        </p>
+      </div>
+
+      <div class="group border border-gray-200 rounded-2xl p-6 hover:shadow-xl transition bg-white">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gray-50 flex items-center justify-center">
+          <img src="./imgs/normas/nr35.png" alt="NR35" class="h-12 object-contain">
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-orange-500 transition">
+          NR35
+        </h3>
+        <p class="text-sm text-gray-600 mt-2">
+          Norma regulatória para trabalhos em altura.
+        </p>
+      </div>
+
+      <div class="group border border-gray-200 rounded-2xl p-6 hover:shadow-xl transition bg-white">
+        <div class="w-20 h-20 mx-auto mb-4 rounded-full bg-gray-50 flex items-center justify-center">
+          <img src="./imgs/normas/ieee.png" alt="IEEE" class="h-12 object-contain">
+        </div>
+        <h3 class="text-lg font-semibold text-gray-800 group-hover:text-orange-500 transition">
+          IEEE
+        </h3>
+        <p class="text-sm text-gray-600 mt-2">
+          Institute of Electrical and Electronic Engineers.
+        </p>
+      </div>
+    </div>
+
+    <!-- Botão (opcional) -->
+    <!--
+    <div class="mt-16">
+      <a href="#" class="inline-block bg-orange-500 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-orange-600 transition">
+        Conheça mais
+      </a>
+    </div>
+    -->
+  </div>
+</section>
+
+
+
+<section>
+  <!-- Container -->
+  <div class="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+    <!-- Component -->
+    <div class="grid items-center gap-8 sm:gap-20 md:grid-cols-2">
+      <div class="max-w-3xl">
+        <!-- Title -->
+        <h2 class="mb-2 text-3xl font-bold md:text-5xl">
+
+          Vamos <span class="text-orange-500">construir <br>algo incrível</span> juntos!
+        </h2>
+        <p class="my-4 max-w-lg pb-4 text-sm text-gray-500 sm:text-base md:mb-6 lg:mb-8">
+          Está pronto para transformar suas ideias em realidade? Nossa equipe está preparada para desenvolver soluções personalizadas que impulsionam seu negócio.
+        </p>
+        <!-- Testimonial -->
+        <div class="mb-4 flex items-center text-yellow-500">
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <path fill="currentColor" d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path>
+          </svg>
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <path fill="currentColor" d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path>
+          </svg>
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <path fill="currentColor" d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path>
+          </svg>
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <path fill="currentColor" d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path>
+          </svg>
+          <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+            <path fill="currentColor" d="m12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72l3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41l-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18l-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path>
+          </svg>
+        </div>
+        <p class="mb-8 max-w-lg text-sm text-gray-500 sm:text-base">
+          Lorem ipsum dolor sit amet,  elit ut aliquam, purus sit amet
+          luctus venenatis elit ut aliquam, purus sit amet luctus venenatis
+        </p>
+        <div class="flex">
+          <img src="https://cdn-icons-png.flaticon.com/512/6858/6858504.png" alt="" class="mr-4 inline-block h-16 w-16 rounded-full object-cover" />
+          <div class="flex flex-col">
+            <h6 class="text-base font-bold">Laila Bahar</h6>
+            <p class="text-sm text-gray-500">Designer</p>
+          </div>
+        </div>
+      </div>
+      <div class="mx-auto max-w-xl bg-gray-100 p-8 text-center">
+        <h3 class="text-2xl font-bold md:text-3xl">Receba um orçamento gratuito</h3>
+        <p class="mx-auto mb-6 mt-4 max-w-lg text-sm text-gray-500 md:mb-8">
+          Conte com a nossa expertise para criar soluções sob medida para o seu negócio. Solicite um orçamento sem compromisso e descubra como podemos ajudar você a alcançar grandes resultados! 
+        </p>
+        <!-- Form -->
+        <form class="mx-auto mb-4 max-w-sm text-left" name="wf-form-password" method="get">
+          <div>
+            <label for="name-2" class="mb-1 font-medium">
+              Seu Nome / Nome da Empresa
+            </label>
+            <input type="text" class="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 pl-4 text-sm text-black" />
+          </div>
+          <div class="mb-2">
+            <label for="name-2" class="mb-1 font-medium">
+              Seu Melhor e-mail
+            </label>
+            <input type="text" class="mb-4 block h-9 w-full rounded-md border border-solid border-black px-3 py-6 pl-4 text-sm text-black" />
+          </div>
+          <div class="mb-5 md:mb-6 lg:mb-8">
+            <label for="field-3" class="mb-1 font-medium">
+       
+Resumo do projeto
+            </label>
+            <textarea placeholder="" maxlength="5000" name="field" class="mb-2.5 block h-auto min-h-32 w-full rounded-md border border-solid border-black p-3 text-sm text-black"></textarea>
+          </div>
+        <button class="inline-block w-full cursor-pointer rounded-md bg-orange-600 px-6 py-3 text-center font-semibold text-white" >Receber orçamento <i class="fa-solid ml-3 fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+  
+  <aside class="relative  min-h- overflow-hidden">
+    <video class="absolute inset-0 object-cover w-full h-full" autoplay playsinline muted loop>
+      <source src="./imgs/banner2.mp4" type="video/mp4">
+      Seu navegador não suporta o elemento de vídeo.
+    </video>
+
+    <section class="relative bg-neutral-900/80 text-white flex justify-center  flex-col items-center">
+      <img src="./imgs/sharp-paper-top.svg">
+  <footer class="block">
+    <!-- Container -->
+    <div class="py-16 md:py-20 mx-auto w-full max-w-7xl px-5 md:px-10">
+      <!-- Component -->
+      <div class="sm:flex-row flex justify-between flex-col">
+        <h2 class="font-bold text-3xl md:text-5xl w-full max-w-xl">
+          Iluminamos. Sonorizamos.<span class="text-orange-600"> Surpreendemos.</span>
+        </h2>
+        <div class="mt-8 md:mt-0">
+          <div class="mb-4 flex max-w-72 items-start justify-start">
+            <i class="fa-solid fa-map-location-dot mr-3 text-lg text-orange-500"></i>
+            <p class="text-white text-sm sm:text-base">
+              Estr. do Gabinal, 979 - Freguesia (Jacarepaguá), Rio de Janeiro
+            </p>
+          </div>
+          <div class="mb-4 flex max-w-72 items-start justify-start">
+            <i class="fa-solid fa-envelope-open-text mr-3 text-lg text-orange-500"></i>
+            <p class="text-white text-sm sm:text-base">
+              contato@bigsystem.com.br
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mb-14 w-full border-b border-white mt-16"></div>
+      <div class="md:flex-row flex justify-between sm:items-center sm:flex-col items-start flex-col-reverse">
+        <div class="font-semibold mb-4 sm:mb-0 py-1 text-center sm:text-center">
+          <a href="javascript:void(0);"
+            class="inline-block font-normal text-white transition hover:text-orange-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
+            Inicio
+          </a>
+          <a href="javascript:void(0);"
+            class="inline-block font-normal text-white transition hover:text-orange-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
+            Sobre nós
+          </a>
+          <a href="javascript:void(0);"
+            class="inline-block font-normal text-white transition hover:text-orange-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
+    
+Qualificações
+
+          </a>
+          <a href="./assistencia/"
+            class="inline-block font-normal text-white transition hover:text-orange-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
+    
+Assistência Técnica
+          </a>
+          <a href="javascript:void(0);"
+            class="inline-block font-normal text-white transition hover:text-orange-600 sm:pr-6 lg:pr-12 py-1.5 sm:py-2 pr-6">
+            Contato
+          </a>
+        </div>
+        <p class="text-white text-sm sm:text-base">
+         Big System © Copyright 2025. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+</section>
+</aside>
+
+  <script>
+    window.onscroll = function () {
+      var navbar = document.getElementById("navbar");
+      if (window.scrollY > 300) {
+        console.log("aa")
+        navbar.classList.add("bg-transparent", "bg-neutral-950/80", "backdrop-blur-xl", "text-black");
+        navbar.classList.remove("bg-transparent");
+      } else {
+        navbar.classList.add("bg-transparent");
+        navbar.classList.remove("backdrop-blur-xl", "bg-neutral-950/80");
+      }
+    };
+  </script>
+  <script src="./assets/scrollreveal.js"></script>
+  <script>
+    ScrollReveal({ reset: false });
+    ScrollReveal().reveal('.reveal_bottom', { origin: 'bottom', distance: '400px', delay: 300 });
+    ScrollReveal().reveal('.reveal_bottom_slow', { origin: 'bottom', distance: '400px', delay: 600 });
+    ScrollReveal().reveal('.reveal_top', { easing: 'ease-in-out', origin: 'top', distance: '400px', delay: 300 });
+    ScrollReveal().reveal('.reveal_left_delay', { origin: 'left', distance: '100px', delay: 700 });
+    ScrollReveal().reveal('.reveal_left', { origin: 'left', distance: '100px', delay: 400, });
+    ScrollReveal().reveal('.reveal_right', { origin: 'right', distance: '100px', delay: 400 });
+    ScrollReveal().reveal('.reveal_spin', { duration: 1000, delay: 700, rotate: { x: 10, z: 200 } })
+    ScrollReveal().reveal('.scale_up', { scale: 0.85, delay: 500 });
+  </script>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+
+</html>
